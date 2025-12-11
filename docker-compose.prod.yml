@@ -1,0 +1,7 @@
+services:
+  frontend-prod:
+    build: .
+    ports:
+      - "4321:4321"
+    environment:
+      - NODE_ENV=production
